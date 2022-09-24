@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+body{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color:rgb(39, 39, 39);
+    display:flex;
+}
+
+.jumbotron{
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: #194a5e;
+    color:rgb(255, 255, 255);
+}
+
+.wrapper{
+    display:flex;
+    width:100%;
+    align-items:stretch;
+}
+
+#sidebar{
+    font-size:22px;
+    font-weight:lighter;
+    min-width:225px;
+    max-width:225px;
+    min-height:100vh;
+    padding:6px;
+    margin:15px;
+}
+
+a{
+    color: rgb(28, 28, 56);
+}
+a:hover{
+    padding:inherit;
+    color:inherit;
+}
+
+.text{
+    padding:24px;
+}
+
+.about, .tracks-offered{
+    margin-bottom:15px;
+    padding:6px;
+}
+
+.multimedia{
+    margin-top:15px;
+}
+
+hr{
+    border-width: 3px;
+    border-color: #194a5e;
+    border-radius: 2px;
+}
+
+.desclist{
+    padding:6px;
+}
+
+.inner{
+    display:flex;
+    align-items:flex-start;
+    padding:16px;
+    font-size:21px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#spec{
+    font-size:larger;
+    text-align: center;
+    background-color:#94bfff;
+    padding-left:100px;
+    padding-right:100px;
+    border-radius:3px;
+}
+
+#spec:first-child{
+    margin-right:200px;
+}
+
+#progimg{
+    display:flex;
+    flex-basis:50%;
+    border-radius:6px;
+    border:dashed 2px rgba(37, 37, 37, 0.801);
+}
+
+ul{
+    list-style-type:circle;
+}
+li{
+    padding-top:6px;
+    padding-bottom:6px;
+}
+
+.footer{
+    background-color: #225f77;
+}
